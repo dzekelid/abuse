@@ -11,37 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Abuse
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/abuse/master/_listings/paralleldots/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ParallelDots
-  x-api-slug: paralleldots
-  description: our-powerful-deep-learning-powered-apis-can-comprehend-a-huge-amount-of-unstructured-text-and-visual-content-to-empower-your-products-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
-  humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3
-  tags: Machine Learning, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/abuse/master/_listings/paralleldots/abuse-post-openapi.md
-- name: ParallelDots
-  x-api-slug: paralleldots
-  description: ParallelDots is one of the best applied AI research groups in the world.
-    We work with enterprises globally to tackle challenging business problems and
-    create the winners of tomorrow. We also provide AI consulting services to explore
-    the what, why, how and who about deploying AI in businesses. Try-out our cutting
-    edge text analysis APIs and join the community of 1,000+ global users. Contact
-    us at contact@paralleldots.com and tell us about the challenging business problems
-    that you are facing.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
-  humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3
-  tags: Abuse
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/abuse/master/_listings/paralleldots/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://pagerduty.api.gallery.streamdata.io
