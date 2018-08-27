@@ -1,8 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Meetup
-x-complete: 1
+x-complete: 0
 info:
-  title: Meetup
+  title: Meetup Report Abuse
+  description: Submits a new abuse report for a target member. Abuse reports will
+    be followed up on by our Community Support team.
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -51,19 +54,6 @@ paths:
       - Events
       - Abuse
       - Members
-    delete:
-      summary: Unblock member
-      description: Unblocks a previously blocked member from various interactions
-        with the authenticated member on the platform
-      operationId: abuse
-      x-api-path-slug: selfblocksmember-id-delete
-      responses:
-        200:
-          description: OK
-      tags:
-      - Events
-      - Abuse
-      - Members
   /self/abuse_reports:
     post:
       summary: Report Abuse
@@ -101,3 +91,17 @@ paths:
       tags:
       - Events
       - Abuse
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
